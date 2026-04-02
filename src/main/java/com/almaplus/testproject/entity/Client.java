@@ -21,5 +21,4 @@ public class Client {
 
     private String email;
 
-    // getters/setters
 }
