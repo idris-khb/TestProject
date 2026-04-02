@@ -1,12 +1,10 @@
 package com.almaplus.testproject.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 @Entity
-@Getter
-@Setter
+@Data
 @Table(name = "clients")
 public class Client {
 

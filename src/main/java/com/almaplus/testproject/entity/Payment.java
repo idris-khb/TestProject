@@ -3,15 +3,13 @@ package com.almaplus.testproject.entity;
 import com.almaplus.testproject.entity.enums.Currency;
 import com.almaplus.testproject.entity.enums.PaymentStatus;
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
-@Getter
-@Setter
+@Data
 @Table(name = "payments")
 public class Payment {
 
